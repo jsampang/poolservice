@@ -1,0 +1,49 @@
+			.home-box {
+				background-color: rgba(0, 0, 0, 0.5);
+				z-index: 2;
+				border-radius: 5px;
+				-webkit-transition: 1s;
+				-moz-transition: 1s;
+				-ms-transition: 1s;
+				-o-transition: 1s;
+				transition: 1s;
+				position: relative;
+				margin-bottom: 100px;
+				margin-top: 138px;
+				padding: 40px;
+				text-align: center;
+			}
+			
+			@media (max-width: 767px) {
+				.home-form {
+					height: 413px;
+				}
+			}
+			
+			@media (max-width: 767px) {
+				.home-box {
+					height: 367px;
+					margin-top: 46px;
+				}
+			}
+			
+			.btn-home {
+				color: #fff;
+				background-color: #f68920;
+				border-color: #fff;
+				padding: 8px 49px;
+				font-size: 24px;
+				line-height: 1.3333333;
+				border-radius: 26px;
+			}
+			
+			.icon-wrapper img {
+				width: 80px;
+			}
+			
+			.home-form {
+				background-image: url(../img/home-image.jpg);
+				background-position: 64% 41%;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
