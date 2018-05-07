@@ -506,6 +506,127 @@ i:hover {
 	margin-bottom: 50pxs
 }
 
+.ml-10 {
+	margin-bottom: 10px
+}
+
+.ml-20 {
+	margin-bottom: 20px
+}
+
+.ml-30 {
+	margin-bottom: 30px
+}
+
+.ml-40 {
+	margin-bottom: 40px
+}
+
+.ml-50 {
+	margin-bottom: 50pxs
+}
+
+
+.mr-10 {
+	margin-bottom: 10px
+}
+
+.mr-20 {
+	margin-bottom: 20px
+}
+
+.mr-30 {
+	margin-bottom: 30px
+}
+
+.mr-40 {
+	margin-bottom: 40px
+}
+
+.mr-50 {
+	margin-bottom: 50pxs
+}
+
+.pt-10 {
+	margin-top: 10px
+}
+
+.pt-20 {
+	margin-top: 20px
+}
+
+.pt-30 {
+	margin-top: 30px
+}
+
+.pt-40 {
+	margin-top: 40px
+}
+
+.pt-50 {
+	margin-top: 50px
+}
+
+.pb-10 {
+	margin-top: 10px
+}
+
+.pb-20 {
+	margin-top: 20px
+}
+
+.pb-30 {
+	margin-top: 30px
+}
+
+.pb-40 {
+	margin-top: 40px
+}
+
+.pb-50 {
+	margin-top: 50px
+}
+
+.pl-10 {
+	margin-top: 10px
+}
+
+.pl-20 {
+	margin-top: 20px
+}
+
+.pl-30 {
+	margin-top: 30px
+}
+
+.pl-40 {
+	margin-top: 40px
+}
+
+.pl-50 {
+	margin-top: 50px
+}
+
+.pr-10 {
+	margin-top: 10px
+}
+
+.pr-20 {
+	margin-top: 20px
+}
+
+.pr-30 {
+	margin-top: 30px
+}
+
+.pr-40 {
+	margin-top: 40px
+}
+
+.pr-50 {
+	margin-top: 50px
+}
+
 #roof {
 	background: #3b3b3b
 }
@@ -2525,7 +2646,13 @@ footer ul li {
 }
 
 footer ul li a {
-	color: #999
+	color: #fff;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+footer ul li a:hover {
+	color: #00D3F9;
 }
 
 footer ul li.tweet {
@@ -2745,7 +2872,7 @@ footer .footer-widget .flicker-gallery h4 {
 }
 
 footer #copyright {
-	background: #111
+	background: #0088CC
 }
 
 footer #copyright .row {
