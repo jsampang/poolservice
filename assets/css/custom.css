@@ -94,6 +94,15 @@
 			  background-repeat: no-repeat;
 			  background-attachment: fixed;
 			}
+
+			.company-page {
+			  background-image: url(../img/hero-company.png);
+			  background-position: 78% 29%;
+			  background-size: cover;
+			  background-repeat: no-repeat;
+			  background-attachment: fixed;
+			}
+
 			
 			.form-page h2 {
 			  color: #bc4e2f!important;
