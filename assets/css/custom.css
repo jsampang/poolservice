@@ -94,7 +94,7 @@
 			  background-repeat: no-repeat;
 			  background-attachment: fixed;
 			}
-
+			
 			.company-page {
 			  background-image: url(../img/hero-company.png);
 			  background-position: 78% 29%;
@@ -102,7 +102,6 @@
 			  background-repeat: no-repeat;
 			  background-attachment: fixed;
 			}
-
 			
 			.form-page h2 {
 			  color: #bc4e2f!important;
@@ -483,6 +482,27 @@
 			@media (max-width: 767px) {
 			  .summary-info {
 			    text-align: left;
-          color: #bc4e2f;
+			    color: #bc4e2f;
 			  }
 			}
+			
+			.card {
+			  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			  position: relative;
+			}
+			
+			.company-page h2 {
+			  color: #bc4e2f!important;
+			  font-size: 26px;
+			}
+			
+			.img-popular-service img {
+			  width: 79px;
+			}
+			
+			.popular-category {
+        background-image: url(../img/popular-category-bg.png);
+			  background-size: cover;
+			  background-repeat: no-repeat;
+        background-attachment: fixed;
+}
