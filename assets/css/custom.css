@@ -501,8 +501,17 @@
 			}
 			
 			.popular-category {
-        background-image: url(../img/popular-category-bg.png);
+			  background-image: url(../img/popular-category-bg.png);
 			  background-size: cover;
 			  background-repeat: no-repeat;
-        background-attachment: fixed;
-}
+			  background-attachment: fixed;
+			}
+			
+			.login .form-control {
+			  width: 70%!important;
+			  margin: auto;
+			}
+			
+			.company-dervice-img img {
+			  width: 70px;
+			}

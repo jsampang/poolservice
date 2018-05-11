@@ -32,10 +32,7 @@
         <div class="collapse navbar-collapse" id="main-menu">
           <ul class="navbar-nav mr-auto w-100 justify-content-end">
             <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="register-service.html">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="company-zipcode.html">
+              <a class="nav-link dropdown-toggle" href="register-service.html">
                 <span class="btn-register">Register Your Company</span>
               </a>
             </li>
@@ -52,14 +49,34 @@
       </div>
     </nav>
     <section>
-      <div class="home-form">
+      <div class="form-page">
         <div class="row justify-content-center">
-          <div class="home-box col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
-            <h2 class="text-white">Schedule Your Service Today!</h2>
-            <h5 class="text-white mb-40">First, let’s check your zip code to make sure you are in our service area.</h5>
-            <div class="">
-              <input type="text" maxlength="200" minlength="2" placeholder="Enter your location tasks or city or zipcode..." class="form-control mb-30">
-              <a href="service.html" class="btn btn-outline btn-round btn-md mt-20 btn-home">Get Service Now!</a>
+          <div class="form-box col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+            <h2 class="mb-20 mt-40">Login</h2>
+            <div class="row">
+              <div class="col-sm-12 col-md-4 col-lg-12 col-xs-12">
+                <div class="mt-10">
+                  <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator" novalidate="true">
+                    <div class="form-group login">
+                      <input type="text" placeholder="User Name" id="name" class="form-control">
+                    </div>
+                    <div class="form-group login">
+                      <input type="text" placeholder="Password" id="name" class="form-control">
+                    </div>
+
+                    <div class="form-check mb-30">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label mr-30" for="">
+                        Remember Me
+                      </label>
+                      <span class="mr-30"><a href="#">Forget Your Password</a></span>
+                       <span><a href="#">Register</a></span>
+                    </div>
+
+                    <div><a href="user-info.html" class="btn btn-outline btn-round btn-md mt-30 btn-form">Login</a></div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -138,62 +155,7 @@
           <h4>Deep Cleaning</h4>
           <p class="mt-20">Restore your pools’ original beauty. We offer one time services for those times when all your pool really needs is a good, deep scrub</p>
         </div>
-
         <div class="col-md-12 col-sm-12 col-xs-12"> <a href="" class="btn btn-outline btn-round mt-20 btn-lg">Register Your Pool</a></div>
-      </div>
-    </div>
-  </section>
-  <section id="google-map-area">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div class="text-center mt-50">
-            <h1 class="section-title wow fadeIn animated" data-wow-delay=".2s">Service Area</h1>
-            <ul class="list-inline text-center service-area mb-40 pt-50 pb-40">
-              <li class="list-inline-item">Anthem </li>
-              <li class="list-inline-item">Apache Junction </li>
-              <li class="list-inline-item">Avondale </li>
-              <li class="list-inline-item">Bagdad </li>
-              <li class="list-inline-item">Black Canyon City </li>
-              <li class="list-inline-item">Buckeye </li>
-              <li class="list-inline-item">Carefree </li>
-              <li class="list-inline-item">Casa Grande </li>
-              <li class="list-inline-item">Cave Creek </li>
-              <li class="list-inline-item">Chandler </li>
-              <li class="list-inline-item">Fountain Hills </li>
-              <li class="list-inline-item">Gilbert </li>
-              <li class="list-inline-item">Glendale </li>
-              <li class="list-inline-item">Globe </li>
-              <li class="list-inline-item">Gold Canyon </li>
-              <li class="list-inline-item">Golden Canyon </li>
-              <li class="list-inline-item">Goodyear</li>
-              <li class="list-inline-item">Heber</li>
-              <li class="list-inline-item">Higley</li>
-              <li class="list-inline-item">Laveen </li>
-              <li class="list-inline-item">Litchfield Park</li>
-              <li class="list-inline-item">Luke Air Force Base</li>
-              <li class="list-inline-item">Maricopa </li>
-              <li class="list-inline-item">Mesa </li>
-              <li class="list-inline-item">Paradise Valley </li>
-              <li class="list-inline-item">Payson </li>
-              <li class="list-inline-item">Peoria </li>
-              <li class="list-inline-item">Phoenix </li>
-              <li class="list-inline-item">Queen Creek </li>
-              <li class="list-inline-item">San Tan Mobile Village </li>
-              <li class="list-inline-item">San Tan Valley </li>
-              <li class="list-inline-item">Scottsdale </li>
-              <li class="list-inline-item">Sun City </li>
-              <li class="list-inline-item">Sun City West </li>
-              <li class="list-inline-item">Sun Lakes </li>
-              <li class="list-inline-item">Surprise </li>
-              <li class="list-inline-item">Tempe </li>
-              <li class="list-inline-item">Thatcher </li>
-              <li class="list-inline-item">Tolleson </li>
-              <li class="list-inline-item">Wittmann </li>
-            </ul>
-          </div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d133547.99147192214!2d-112.06177494397663!3d33.431736897530755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1525707986363" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
       </div>
     </div>
   </section>
